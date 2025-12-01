@@ -1,0 +1,128 @@
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+}
+section, header {
+    width: 80%;
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+header h1, h2, blockquote {
+    font-family: "Playfair Display", serif;
+    color: #743B09;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 7.451rem;
+    line-height: 1;
+     color: #AE821C;
+     margin: 5rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 1.953rem;
+}
+header h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    color: #333333;
+    font-style: oblique;
+    margin-bottom: 4rem;
+}
+
+        p {
+            text-align: left;
+            font-family:Merriweather Sans, serif;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+
+        li {
+            font-family: Merriweather Sans, serif;
+            text-align: left;
+        
+           
+        }
+        a{ 
+            color: #6b6054;
+            text-decoration: none;
+            border-bottom: 1px dotted;
+            font-weight: 600;
+        }
+        a:hover { 
+            color:#f6bd60;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /*--styling the footer--*/
+        footer {
+            background: #f6bd60;
+            color: black;
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 4rem 0;
+        }
+
+        /*--navigation--*/
+        .responsivenav {
+            background: #f6bd60;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            font-size: 2rem;
+            color: #6b6054;
+            font-family: Merriweather Sans, serif;
+            font-weight: 600;
+            padding-left: 35px;
+        }
+
+        nav {
+            display: flex;
+            padding: 1.5rem 0;
+
+        }
+
+        nav ul {
+            text-align: right;
+            text-transform: uppercase;
+            letter-spacing: 1;
+            list-style-type: none;
+            padding-right: 70px;
+        }
+    
+        nav ul li {
+            display: inline;
+            margin: 5px;
+        }
+
+    nav a {
+border-bottom: none;
+color: #6b6054;
+padding: 10px;
+    }
+
+    .light {
+        background: #dddbf1;
+        padding: 4rem 0;
+    }
+
+    hr {
+        margin: 3rem 0 5rem 0;
+    }
+
+    .gridimage {
+        display: grid;
+        column-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+
+    }
